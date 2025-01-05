@@ -3,8 +3,5 @@ plugins {
 }
 
 buildScan {
-    // Optional settings for your build scan
-    publishAlways()
-    termsOfServiceUrl = 'https://gradle.com/terms-of-service'
-    termsOfServiceAgree = 'yes'
+    tags = ['frontend-engineer']
 }
